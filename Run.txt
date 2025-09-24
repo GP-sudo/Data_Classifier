@@ -1,6 +1,6 @@
 # Run project using streamlit 
 ❯ source venv/bin/activate
-❯ cd /Users/dhiraj/Desktop/DataProject
+❯ cd /ProjectFolder
 ❯ streamlit run app.py
 
 # To check if venv is activated 
