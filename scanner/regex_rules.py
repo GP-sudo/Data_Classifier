@@ -20,9 +20,3 @@ if __name__ == "__main__":
     test_text = "Alice Johnson alice.johnson@example.com 123-45-6789 555-123-4567 4111-1111-1111-1111"
     print("Test Findings:", regex_scan(test_text))
 
-"""	 b → word boundary
-	\d{3} → area code (3 digits)
-	[-.\s]?? → optional separator (dash, dot, or space) — lazy match
-	\d{3} → next 3 digits
-	\d{4} → last 4 digits
-"""

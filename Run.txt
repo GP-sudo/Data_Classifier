@@ -12,3 +12,11 @@
 
 # Run all backend modules without UI 
 > python run_scan.py
+
+
+"""	 b → word boundary
+	\d{3} → area code (3 digits)
+	[-.\s]?? → optional separator (dash, dot, or space) — lazy match
+	\d{3} → next 3 digits
+	\d{4} → last 4 digits
+"""
