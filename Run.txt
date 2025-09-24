@@ -1,0 +1,14 @@
+# Run project using streamlit 
+❯ source venv/bin/activate
+❯ cd /Users/dhiraj/Desktop/DataProject
+❯ streamlit run app.py
+
+# To check if venv is activated 
+>python where
+>pip which
+
+# Run individual file 
+❯ python3 scanner/regex_rules.py
+
+# Run all backend modules without UI 
+> python run_scan.py
